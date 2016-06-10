@@ -145,6 +145,5 @@ public interface RestServerSettings {
 	 */
 	public Map<String,String> getClassPathHandlers();
 
-	
 
 }
