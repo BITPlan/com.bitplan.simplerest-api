@@ -90,6 +90,16 @@ public interface RestServerSettings {
 	 * @param timeOut the timeOut to set
 	 */
 	public abstract void setTimeOut(long timeOut);
+	
+	 /**
+   * @return the options
+   */
+  public String getOptions();
+  
+  /**
+   * @param options the options to set
+   */
+  public void setOptions(String options);
 
 	public abstract String getPackages();
 
