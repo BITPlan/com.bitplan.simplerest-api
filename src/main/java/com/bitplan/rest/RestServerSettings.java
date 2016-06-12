@@ -1,5 +1,6 @@
 package com.bitplan.rest;
 
+import java.io.File;
 import java.util.Map;
 
 /**
@@ -155,5 +156,10 @@ public interface RestServerSettings {
 	 */
 	public Map<String,String> getClassPathHandlers();
 
-
+	/**
+	 * read me from an XML File
+	 * @param file
+	 * @throws Exception
+	 */
+	public void fromXMLFile(File file) throws Exception;
 }
