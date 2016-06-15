@@ -1,5 +1,6 @@
 package com.bitplan.rest;
 
+
 /**
  * Rest Server Interface (without Guice)
  * 
@@ -71,4 +72,9 @@ public interface RestServer {
    */
   public boolean isPortAvailable(int port);
 
+  /**
+   * create the Server
+   * @throws Exception 
+   */
+  public void createServer() throws Exception;
 }
