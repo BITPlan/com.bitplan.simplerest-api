@@ -1,10 +1,5 @@
-package com.bitplan.rest;
-
-import java.io.File;
-import java.util.Map;
-
 /**
- * Copyright (C) 2011 BITPlan GmbH
+ * Copyright (C) 2011-2016 BITPlan GmbH
  *
  * Pater-Delp-Str. 1
  * D-47877 Willich-Schiefbahn
@@ -12,6 +7,11 @@ import java.util.Map;
  * http://www.bitplan.com
  * 
  */
+package com.bitplan.rest;
+
+import java.io.File;
+import java.util.Map;
+
 
 /**
  * settings for a Rest Server

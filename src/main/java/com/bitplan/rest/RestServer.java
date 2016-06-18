@@ -1,5 +1,13 @@
+/**
+ * Copyright (C) 2011-2016 BITPlan GmbH
+ *
+ * Pater-Delp-Str. 1
+ * D-47877 Willich-Schiefbahn
+ *
+ * http://www.bitplan.com
+ * 
+ */
 package com.bitplan.rest;
-
 
 /**
  * Rest Server Interface (without Guice)
