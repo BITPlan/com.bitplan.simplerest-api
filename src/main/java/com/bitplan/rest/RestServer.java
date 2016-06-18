@@ -77,4 +77,10 @@ public interface RestServer {
    * @throws Exception 
    */
   public void createServer() throws Exception;
+  
+  /**
+   * if there was any exception get it
+   * @return
+   */
+  public Throwable getException();
 }
