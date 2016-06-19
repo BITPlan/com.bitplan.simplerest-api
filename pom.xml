@@ -10,9 +10,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bitplan.rest</groupId>
 	<artifactId>com.bitplan.simplerest-api</artifactId>
-	<version>0.0.1</version>
-	<name>RESTFul Jersey Example</name>
-	<description>Example for a RESTFul application</description>
+	<version>0.0.2</version>
+	<name>Simple RESTFul Jersey API</name>
+	<description>API for Jersey 1.x based apps</description>
 	<packaging>jar</packaging>
 	<url>https://github.com/BITPlan/com.bitplan.simplerest-api</url>
 	<licenses>

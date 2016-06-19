@@ -162,4 +162,16 @@ public interface RestServerSettings {
 	 * @throws Exception
 	 */
 	public void fromXMLFile(File file) throws Exception;
+	
+	/**
+	 * set a userManager - this will activate Basic Authentication
+	 * @param userManager
+	 */
+	public void setUserManager(UserManager userManager);
+	
+	/**
+	 * get the UserManager - if it is non null Basic Authentication is active
+	 * @return
+	 */
+	public UserManager getUserManager();
 }
