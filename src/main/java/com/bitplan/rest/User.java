@@ -59,12 +59,12 @@ public interface User extends XMLPresentable<User>, Principal{
   public abstract void setEmail(String email);
 
   /**
-   * @return the password
+   * @return the encrypted password
    */
   public abstract String getPassword();
 
   /**
-   * @param password the password to set
+   * @param password the encrypted password to set
    */
   public abstract void setPassword(String password);
 
@@ -79,15 +79,13 @@ public interface User extends XMLPresentable<User>, Principal{
   public abstract void setComment(String comment);
   
   /**
-   * security measure
-   * @param crypt
+   * @return the role
    */
-  public void encrypt(Crypt crypt);
-  
+  public String getRole();
+
   /**
-   * decrypt me with the given crypt interface
-   * @param crypt
+   * @param role the role to set
    */
-  public void deCrypt(Crypt crypt);
-  
+  public void setRole(String role);
+   
 }
