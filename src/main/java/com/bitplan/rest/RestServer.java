@@ -70,7 +70,7 @@ public interface RestServer {
    * 
    * @param args
    */
-  public abstract RestServer startServer(String[] args);
+  public RestServer startServer(String[] args);
 
   /**
    * check whether the given port is available
