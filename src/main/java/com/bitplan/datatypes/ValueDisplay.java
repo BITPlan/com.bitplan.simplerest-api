@@ -18,37 +18,53 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bitplan.rest;
+ Pater-Delp-Str. 1
+ D-47877 Willich-Schiefbahn
 
-import java.util.List;
+ http://www.bitplan.com
+*/
+package com.bitplan.datatypes;
 
+
+import java.util.Date;
 /**
- * handler for User info and credentials
+ * Null Value Handling
+ * @author wf
+ *
  */
-public interface UserManager extends XMLPresentable<UserManager> {
+public interface ValueDisplay {
   /**
-   * get the users
+   * format a timestamp
+   * @param ts
    * @return
    */
-  public List<User> getUsers();
+  public String formatTimeStamp(Date ts) ;
+  
+  /**
+   * return a null Value representation
+   * @param value
+   * @return
+   */
+  public String nullValue(Object value);
+  
+  /**
+   * return a String representation from a nullValue representation (replace with null)
+   * @param value
+   * @return
+   */
+  String fromNullValue(String value);
+  
+  /**
+   * set the default NullValueRepresentation
+   * @param nullValueRepresentation
+   * @return
+   */
+  public void setNullValueRepresentation(String nullValueRepresentation);
+  
+  /**
+   * get the default NullValueRepresentation
+   * @return
+   */
+  public String getNullValueRepresentation();
 
-  /**
-   * add the given user
-   * @param user
-   */
-  public void add(User user);
-  
-  /**
-   * get a user by the given id
-   * @param id
-   * @return the user
-   */
-  public User getById(String id);
-  
-  /**
-   * return the Crypt interface for this manager
-   * @return
-   */
-  public Crypt getCrypt();
-  
 }

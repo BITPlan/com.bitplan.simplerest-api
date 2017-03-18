@@ -18,25 +18,61 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bitplan.rest;
+package com.bitplan.datatypes;
 
-import javax.xml.bind.annotation.XmlTransient;
+import java.util.Date;
 
 /**
- * i am encryptable using the given Crypt interface 
+ * a type converter which helps to convert data mostly from String format to the types
  * @author wf
+ *
  */
-@XmlTransient
-public interface Encryptable {
+public interface TypeConverter {
   /**
-   * security measure
-   * @param crypt
+   * @param pLong
+   * @return
    */
-  public void encrypt(Crypt crypt);
-  
+  Long getLong(Object pLong);
+
   /**
-   * decrypt me with the given crypt interface
-   * @param crypt
+   * @param pString
+   * @return
    */
-  public void deCrypt(Crypt crypt);
+  String getString(Object pString);
+
+  /**
+   * @param pBoolean
+   * @return
+   */
+  Boolean getBoolean(Object pBoolean);
+
+  /**
+   * @param pInteger
+   * @return
+   */
+  Integer getInteger(Object pInteger);
+
+  /**
+   * @param pShort
+   * @return
+   */
+  Short getShort(Object pShort);
+
+  /**
+   * @param pFloat
+   * @return
+   */
+  Float getFloat(Object pFloat);
+
+  /**
+   * @param pDouble
+   * @return
+   */
+  Double getDouble(Object pDouble);
+
+  /**
+   * @param pDate
+   * @return
+   */
+  Date getDate(Object pDate);
 }

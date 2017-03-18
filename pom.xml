@@ -10,7 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bitplan.rest</groupId>
 	<artifactId>com.bitplan.simplerest-api</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>Simple RESTFul Jersey API</name>
 	<description>API for Jersey 1.x based apps</description>
 	<packaging>jar</packaging>
@@ -56,6 +56,18 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- http://code.mycila.com/license-maven-plugin/ -->
+				<groupId>com.mycila.maven-license-plugin</groupId>
+				<artifactId>maven-license-plugin</artifactId>
+				<version>1.9.0</version>
+				<configuration>
+					<header>src/etc/header.txt</header>
+					<includes>
+						<include>src/**/*.java</include>
+					</includes>
 				</configuration>
 			</plugin>
 			<plugin>

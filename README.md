@@ -19,7 +19,7 @@ see https://github.com/BITPlan/com.bitplan.simplerest
 ### Distribution
 Available at Maven Central see 
 
-http://search.maven.org/#artifactdetails|com.bitplan.rest|com.bitplan.simplerest-api|0.0.1|jar
+http://search.maven.org/#artifactdetails|com.bitplan.rest|com.bitplan.simplerest-api|0.0.3|jar
 
 Maven dependency:
 
@@ -27,10 +27,11 @@ Maven dependency:
 <dependency>
 	<groupId>com.bitplan.rest</groupId>
 	<artifactId>com.bitplan.simplerest-api</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 </dependency>
 ```
 
 ## Version history
 * 0.0.1: 2016-06-18 First release via GitHub / Maven central
 * 0.0.2: 2016-06-19 adds Basic Authentication support via UserManager
+* 0.0.3: 2017-03-18 adds com.bitplan.datatypes package
