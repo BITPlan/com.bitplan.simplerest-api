@@ -18,11 +18,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- Pater-Delp-Str. 1
- D-47877 Willich-Schiefbahn
-
- http://www.bitplan.com
-*/
 package com.bitplan.datatypes;
 
 
