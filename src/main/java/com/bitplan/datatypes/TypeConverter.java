@@ -27,7 +27,7 @@ import java.util.Date;
  * @author wf
  *
  */
-public interface TypeConverter {
+public interface TypeConverter extends ValueDisplay {
   /**
    * @param pLong
    * @return

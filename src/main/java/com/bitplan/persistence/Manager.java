@@ -18,33 +18,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bitplan.jaxb;
+package com.bitplan.persistence;
 
-import javax.xml.bind.JAXBException;
+import java.io.File;
+import java.util.List;
+
+import com.bitplan.jaxb.JaxbPersistenceApi;
 
 /**
- * generic Jaxb persistence interface converts T instances to xml or json
+ * Manager interface based on XML persistence
  * @author wf
  *
+ * @param <MT>
+ * @param <T>
  */
-public interface JaxbPersistenceApi<T> {
-	/**
-	 * get my factory
-	 * @return the factory for T instances
-	 */
-	public JaxbFactoryApi<T> getFactory();
-	
-	/**
-	 * convert me to json format
-	 * @return - a json representation of me
-	 * @throws JAXBException
-	 */
-	public String asJson() throws JAXBException;
-	
-	/**
-	 * convert me to xml format
-	 * @return - an xml representation of me
-	 * @throws JAXBException
-	 */
-	public String asXML() throws JAXBException;
+public interface Manager<MT,T> extends JaxbPersistenceApi<MT> { 
+  public String getXmlPath();
+  public void setXmlPath(String path);
+  public void setXmlFile(File xmlFile);
+  public File getXmlFile();
+  public void saveAsXML(File xmlFile) throws Exception;
+  public void save() throws Exception;
+  public List<T> getElements();
 }
