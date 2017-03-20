@@ -119,7 +119,7 @@ public interface RestServerSettings {
 	
 	/**
 	 * get the context Path
-	 * @return
+	 * @return the context path
 	 */
 	public String getContextPath();
 	
@@ -155,8 +155,8 @@ public interface RestServerSettings {
 
 	/**
 	 * add a class path handler
-	 * @param string classpathPath
-	 * @param string documentRoot
+   * @param documentRoot
+	 * @param classpathPath
 	 * @throws Exception 
 	 */
 	public abstract void addClassPathHandler(String documentRoot,String classpathPath) throws Exception;
@@ -182,7 +182,7 @@ public interface RestServerSettings {
 	
 	/**
 	 * get the UserManager - if it is non null Basic Authentication is active
-	 * @return
+	 * @return the userManager
 	 */
 	public UserManager getUserManager();
 }

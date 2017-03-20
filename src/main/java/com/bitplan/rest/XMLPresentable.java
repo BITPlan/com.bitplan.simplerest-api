@@ -30,8 +30,8 @@ public interface XMLPresentable<T> {
 	/**
 	 * get my XML presentation
 	 * 
-	 * @return
 	 * @throws Exception 
+	 * @return my XML respresentation
 	 */
 	public String asXML() throws Exception;
 	
