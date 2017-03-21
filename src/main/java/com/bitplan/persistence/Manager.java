@@ -39,5 +39,8 @@ public interface Manager<MT,T> extends JaxbPersistenceApi<MT> {
   public File getXmlFile();
   public void saveAsXML(File xmlFile) throws Exception;
   public void save() throws Exception;
+  // sort my elements
+  public void sort();
+  // get my elements
   public List<T> getElements();
 }
