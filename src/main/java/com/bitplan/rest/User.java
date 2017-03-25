@@ -29,7 +29,7 @@ import com.bitplan.persistence.Postable;
  * @author wf
  *
  */
-public interface User extends Postable<User>,XMLPresentable<User>, Principal{
+public interface User extends Postable<User>, Principal{
   
   /**
    * @return the id
@@ -100,5 +100,7 @@ public interface User extends Postable<User>,XMLPresentable<User>, Principal{
    * @param role the role to set
    */
   public void setRole(String role);
+  
+  public String asXML() throws Exception;
    
 }
