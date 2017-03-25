@@ -22,12 +22,14 @@ package com.bitplan.rest;
 
 import java.security.Principal;
 
+import com.bitplan.persistence.Postable;
+
 /**
  * general user interface
  * @author wf
  *
  */
-public interface User extends XMLPresentable<User>, Principal{
+public interface User extends Postable<User>,XMLPresentable<User>, Principal{
   
   /**
    * @return the id
