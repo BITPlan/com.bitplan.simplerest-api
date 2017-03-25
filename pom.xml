@@ -1,5 +1,5 @@
 <!--
-	Copyright (c) 2016 BITPlan GmbH
+	Copyright (c) 2016-2017 BITPlan GmbH
 
 	Project details and license at:
 	https://github.com/BITPlan/com.bitplan.simplerest-api
@@ -173,7 +173,7 @@
 					<plugin>
 						<groupId>org.sonatype.plugins</groupId>
 						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.3</version>
+						<version>1.6.8</version>
 						<extensions>true</extensions>
 						<configuration>
 							<serverId>ossrh</serverId>
