@@ -14,4 +14,4 @@ Maven dependency
 </dependency>
 ```
 ### Creator 
-[![BITPlan](http://wiki.bitplan.com/images/wiki/thumb/8/87/BITPlanLogo2012.svg/150px-BITPlanLogo2012.svg.png)](http://www.bitplan.com)
+[![BITPlan](http://wiki.bitplan.com/images/wiki/thumb/3/38/BITPlanLogoFontLessTransparent.png/198px-BITPlanLogoFontLessTransparent.png)](http://www.bitplan.com)
