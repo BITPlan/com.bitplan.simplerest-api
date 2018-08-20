@@ -22,21 +22,4 @@
 	</properties>
 	<dependencies>
 	</dependencies>
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<overview>${basedir}\src\main\java\overview.html</overview>
-					<verbose>true</verbose>
-					<additionalJOption>${javadoc.opts}</additionalJOption>
-				</configuration>
-			</plugin>
-		</plugins>
-	</reporting>
 </project>
