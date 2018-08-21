@@ -19,6 +19,8 @@
 	<properties>
 		<!-- for parent pom to work -->
 		<github.project>com.bitplan.simplerest-api</github.project>
+		<!-- for README.md generation -->
+		<documentation.wiki>http://www.bitplan.com/SimpleRest</documentation.wiki>
 	</properties>
 	<dependencies>
 	</dependencies>

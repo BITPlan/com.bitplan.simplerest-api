@@ -1,36 +1,35 @@
-# com.bitplan.simplerest-api
-simple RESTFul Jersey API
+### com.bitplan.simplerest-api
+[API for Jersey 1.x based apps](http://www.bitplan.com/SimpleRest) 
 
-# Implementation
-see https://github.com/BITPlan/com.bitplan.simplerest
+[![Travis (.org)](https://img.shields.io/travis/BITPlan/com.bitplan.simplerest-api.svg)](https://travis-ci.org/BITPlan/com.bitplan.simplerest-api)
+[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.rest/com.bitplan.simplerest-api.svg)](https://search.maven.org/artifact/com.bitplan.rest/com.bitplan.simplerest-api/0.0.8/jar)
+[![GitHub issues](https://img.shields.io/github/issues/BITPlan/com.bitplan.simplerest-api.svg)](https://github.com/BITPlan/com.bitplan.simplerest-api/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed/BITPlan/com.bitplan.simplerest-api.svg)](https://github.com/BITPlan/com.bitplan.simplerest-api/issues/?q=is%3Aissue+is%3Aclosed)
+[![GitHub](https://img.shields.io/github/license/BITPlan/com.bitplan.simplerest-api.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![BITPlan](http://wiki.bitplan.com/images/wiki/thumb/3/38/BITPlanLogoFontLessTransparent.png/198px-BITPlanLogoFontLessTransparent.png)](http://www.bitplan.com)
 
-### Project
-[![Build Status](https://travis-ci.org/BITPlan/com.bitplan.simplerest-api.svg?branch=master)](https://travis-ci.org/BITPlan/com.bitplan.simplerest-api)
+### Project pages
+[com.bitplan.simplerest-api](https://BITPlan.github.io/com.bitplan.simplerest-api)
 
-* Open Source hosted at https://github.com/BITPlan/com.bitplan.simplerest-api
-* License based on license of libraries used (see [pom.xml](https://github.com/BITPlan/com.bitplan.simplerest-api/blob/master/pom.xml))
-* Maven based Java project including JUnit 4 tests.
+### Maven dependency
 
-### How to build
-* git clone https://github.com/BITPlan/com.bitplan.simplerest-api
-* cd com.bitplan.simplerest-api
-* mvn install
-
-### Distribution
-Available at Maven Central see 
-
-http://search.maven.org/#artifactdetails|com.bitplan.rest|com.bitplan.simplerest-api|0.0.8|jar
-
-Maven dependency:
-
+Maven dependency
 ```xml
 <dependency>
-	<groupId>com.bitplan.rest</groupId>
-	<artifactId>com.bitplan.simplerest-api</artifactId>
-	<version>0.0.8</version>
+  <groupId>com.bitplan.rest</groupId>
+  <artifactId>com.bitplan.simplerest-api</artifactId>
+  <version>0.0.8</version>
 </dependency>
 ```
 
+[Current release at repo1.maven.org](http://repo1.maven.org/maven2/com/bitplan/rest/com.bitplan.simplerest-api/0.0.8/)
+
+### How to build
+```
+git clone https://github.com/BITPlan/com.bitplan.simplerest-api
+cd com.bitplan.simplerest-api
+mvn install
+```
 ## Version history
 * 0.0.1: 2016-06-18 First release via GitHub / Maven central
 * 0.0.2: 2016-06-19 adds Basic Authentication support via UserManager
