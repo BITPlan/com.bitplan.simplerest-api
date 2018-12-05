@@ -1,5 +1,5 @@
 ### com.bitplan.simplerest-api
-[API for Jersey 1.x based apps](http://www.bitplan.com/SimpleRest) 
+[API for Jersey 1.x based apps](http://www.bitplan.com/SimpleRest)
 
 [![Travis (.org)](https://img.shields.io/travis/BITPlan/com.bitplan.simplerest-api.svg)](https://travis-ci.org/BITPlan/com.bitplan.simplerest-api)
 [![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.rest/com.bitplan.simplerest-api.svg)](https://search.maven.org/artifact/com.bitplan.rest/com.bitplan.simplerest-api/0.0.8/jar)
@@ -17,6 +17,7 @@
 
 Maven dependency
 ```xml
+<!-- API for Jersey 1.x based apps http://www.bitplan.com/SimpleRest -->
 <dependency>
   <groupId>com.bitplan.rest</groupId>
   <artifactId>com.bitplan.simplerest-api</artifactId>
