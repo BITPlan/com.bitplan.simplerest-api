@@ -43,4 +43,6 @@ public interface Manager<MT,T> extends JaxbPersistenceApi<MT> {
   public void sort();
   // get my elements
   public List<T> getElements();
+  // reinitialize my internal data structures
+  public void reinit();
 }
