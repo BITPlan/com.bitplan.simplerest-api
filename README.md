@@ -2,7 +2,7 @@
 [API for Jersey 1.x based apps](http://www.bitplan.com/SimpleRest)
 
 [![Travis (.org)](https://img.shields.io/travis/BITPlan/com.bitplan.simplerest-api.svg)](https://travis-ci.org/BITPlan/com.bitplan.simplerest-api)
-[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.rest/com.bitplan.simplerest-api.svg)](https://search.maven.org/artifact/com.bitplan.rest/com.bitplan.simplerest-api/0.0.9/jar)
+[![Maven Central](https://img.shields.io/maven-central/v/com.bitplan.rest/com.bitplan.simplerest-api.svg)](https://search.maven.org/artifact/com.bitplan.rest/com.bitplan.simplerest-api/0.0.10/jar)
 
 [![GitHub issues](https://img.shields.io/github/issues/BITPlan/com.bitplan.simplerest-api.svg)](https://github.com/BITPlan/com.bitplan.simplerest-api/issues)
 [![GitHub issues](https://img.shields.io/github/issues-closed/BITPlan/com.bitplan.simplerest-api.svg)](https://github.com/BITPlan/com.bitplan.simplerest-api/issues/?q=is%3Aissue+is%3Aclosed)
@@ -22,11 +22,11 @@ Maven dependency
 <dependency>
   <groupId>com.bitplan.rest</groupId>
   <artifactId>com.bitplan.simplerest-api</artifactId>
-  <version>0.0.9</version>
+  <version>0.0.10</version>
 </dependency>
 ```
 
-[Current release at repo1.maven.org](https://repo1.maven.org/maven2/com/bitplan/rest/com.bitplan.simplerest-api/0.0.9/)
+[Current release at repo1.maven.org](https://repo1.maven.org/maven2/com/bitplan/rest/com.bitplan.simplerest-api/0.0.10/)
 
 ### How to build
 ```
